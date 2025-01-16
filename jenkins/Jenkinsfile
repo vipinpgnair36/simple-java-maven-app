@@ -26,10 +26,5 @@ pipeline {
                 echo "Complete Stage"
             }
         }
-        stage('Release') {
-            steps {
-                echo "Release Stage"
-            }
-        }
     }
 }
